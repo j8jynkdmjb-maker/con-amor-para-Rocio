@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Con amor para Rocío ❤️</title>
+<style>
+*{box-sizing:border-box}
+body{
+ margin:0;padding:20px 14px;
+ background:linear-gradient(140deg,#fff0f5,#f5bfd2,#fff7fa);
+ color:#754154;font-family:Georgia,serif;text-align:center;
+}
+main{max-width:780px;margin:auto}
+section{
+ background:#ffffffed;border-radius:25px;padding:28px 20px;
+ margin:22px auto;box-shadow:0 7px 25px #9c496022;
+}
+h1{font-size:2.5rem;color:#bd527a}
+h2{color:#bd527a}
+p{font-size:1.08rem;line-height:1.8}
+button{
+ background:#cf5d87;color:white;border:0;border-radius:30px;
+ padding:15px 25px;font-size:1.05rem;cursor:pointer;
+}
+img{width:100%;height:360px;object-fit:cover;border-radius:18px}
+.gallery{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.gallery img{height:230px}
+.heart{font-size:2.8rem}
+.hidden{display:none}
+audio{width:100%;margin:15px 0}
+.signature{font-size:1.3rem;color:#bd527a;font-weight:bold}
+@media(max-width:500px){
+ h1{font-size:2rem}
+ section{padding:23px 15px}
+ .gallery img{height:170px}
+}
+</style>
+</head>
+<body>
+<main>
+
+<section>
+ <div class="heart">❤️</div>
+ <h1>Con amor para Rocío</h1>
+ <p>Preparé una pequeña sorpresa para la persona que hace tan especial mi vida.</p>
+ <p>Hay algo que quiero mostrarte...</p>
+ <button onclick="document.getElementById('contenido').classList.remove('hidden');this.style.display='none'">
+ Abrir mi sorpresa ❤️
+ </button>
+</section>
+
+<div id="contenido" class="hidden">
+
+<section>
+ <h2>12 de enero de 2026 ❤️</h2>
+ <img src="foto1.jpg" alt="Nosotros">
+ <p>Ese día comenzó nuestra historia. Quizás ninguno de los dos imaginaba todos los momentos que íbamos a vivir desde entonces.</p>
+ <h1>300 días ❤️</h1>
+ <p>300 días de recuerdos, sonrisas, abrazos y una historia que todavía tiene muchísimo por delante.</p>
+</section>
+
+<section>
+ <h2>Mi amor...</h2>
+ <p>
+ Quiero que sepas lo importante que sos para mí.
+ Gracias por cada momento compartido, por cada sonrisa,
+ por cada abrazo y por hacer que hasta los días más
+ comunes se conviertan en recuerdos especiales.
+ </p>
+ <p>
+ No necesito que todo sea perfecto. Solamente quiero
+ seguir construyendo nuestra historia, acompañarte
+ en tus días buenos y en los difíciles, y seguir
+ eligiéndonos.
+ </p>
+ <p>
+ Ojalá nunca te olvides de lo mucho que te amo
+ y de lo feliz que me hace tenerte en mi vida.
+ </p>
+ <p class="signature">Con todo mi amor, Facu ❤️</p>
+</section>
+
+<section>
+ <h2>Quiero decirte algo con mi voz ❤️</h2>
+ <p>Escuchá esto que grabé especialmente para vos.</p>
+ <audio controls>
+  <source src="audio-facu.ogg" type="audio/ogg">
+  Tu navegador no puede reproducir este audio.
+ </audio>
+ <p><em>Quiero que sepas que te amo y que pase lo que pase siempre voy a estar para lo que necesites. Te amo mucho.</em></p>
+</section>
+
+<section>
+ <h2>Nuestros recuerdos 📸</h2>
+ <p>Si pudiera guardar cada momento en un lugar, sería acá.</p>
+ <div class="gallery">
+  <img src="foto2.jpg" alt="Recuerdo">
+  <img src="foto3.jpg" alt="Recuerdo">
+  <img src="foto4.jpg" alt="Recuerdo">
+  <img src="foto5.jpg" alt="Recuerdo">
+  <img src="foto6.jpg" alt="Recuerdo">
+  <img src="foto7.jpg" alt="Recuerdo">
+  <img src="foto8.jpg" alt="Recuerdo">
+  <img src="foto9.jpg" alt="Recuerdo">
+ </div>
+</section>
+
+<section>
+ <div class="heart">💕</div>
+ <h1>Te amo, Rocío</h1>
+ <p>Por estos 300 días y por todos los que todavía nos quedan por vivir.</p>
+ <p class="signature">Con todo mi amor, Facu ❤️</p>
+</section>
+
+</div>
+</main>
+</body>
+</html>
